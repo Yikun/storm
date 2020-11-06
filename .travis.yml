@@ -20,13 +20,8 @@ virt: vm
 
 env:
   - MODULES=Client
-  - MODULES=Server
-  - MODULES=Core
-  - MODULES=External
-  - MODULES=Integration-Test
-  - MODULES=Check-Updated-License-Files
 
-dist: trusty
+dist: focal
 sudo: required
 
 before_cache:
