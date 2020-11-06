@@ -16,6 +16,9 @@ addons:
 arch:
   - arm64-graviton2
 
+virt:
+  - vm
+
 env:
   - MODULES=Client
   - MODULES=Server
