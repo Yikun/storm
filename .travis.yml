@@ -18,6 +18,7 @@ arch:
 
 virt:
   - vm
+  - lxd
 
 env:
   - MODULES=Client
