@@ -14,7 +14,6 @@ addons:
     - node1
 
 arch:
-  - amd64
   - arm64-graviton2
 
 env:
