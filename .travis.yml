@@ -16,9 +16,7 @@ addons:
 arch:
   - arm64-graviton2
 
-virt:
-  - vm
-  - lxd
+virt: lxd
 
 env:
   - MODULES=Client
