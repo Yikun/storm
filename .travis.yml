@@ -14,16 +14,14 @@ addons:
     - node1
 
 arch:
-  - amd64
   - arm64-graviton2
+
+virt:
+  - vm
+  - lxd
 
 env:
   - MODULES=Client
-  - MODULES=Server
-  - MODULES=Core
-  - MODULES=External
-  - MODULES=Integration-Test
-  - MODULES=Check-Updated-License-Files
 
 dist: trusty
 sudo: required
