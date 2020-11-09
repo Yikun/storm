@@ -20,6 +20,10 @@ virt: lxd
 
 env:
   - MODULES=Client
+  - MODULES=Server
+  - MODULES=Core
+  - MODULES=External
+  - MODULES=Integration-Test
 
 dist: focal
 sudo: required
