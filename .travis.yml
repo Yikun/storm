@@ -14,8 +14,9 @@ addons:
     - node1
 
 arch:
-  - amd64
   - arm64-graviton2
+
+virt: lxd
 
 env:
   - MODULES=Client
@@ -23,9 +24,8 @@ env:
   - MODULES=Core
   - MODULES=External
   - MODULES=Integration-Test
-  - MODULES=Check-Updated-License-Files
 
-dist: trusty
+dist: focal
 sudo: required
 
 before_cache:
